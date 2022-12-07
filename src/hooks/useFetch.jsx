@@ -15,7 +15,6 @@ const useFetch = () =>{
     
   },[])
 
-  console.log(weather);
   const tempC = (weather.main?.temp - 273.15).toFixed()
   const feelsC = (weather.main?.feels_like -273.15).toFixed()
   const tempF = ((tempC*1.8)+32).toFixed()

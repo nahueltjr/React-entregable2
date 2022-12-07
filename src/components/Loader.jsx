@@ -14,7 +14,7 @@ const Loader = () => {
     return (
         <div className={loader}>
             <div className='Loader-content'>
-              <motion.img src={img} alt="" animate={{scale: [1, 1.5, 1.5, 1, 1],rotate: [0, 0, 270, 270, 0] }} transition={{ duration: 1.8}}/> 
+              <motion.img src={img} alt="" animate={{scale: [1, 1.2, 1.2, 1, 1],rotate: [0, 0, 270, 270, 0] }} transition={{ duration: 1.8}}/> 
               <p>Weather App</p> 
             </div> 
         </div>
